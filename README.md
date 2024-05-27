@@ -15,21 +15,15 @@ vvp outputBinaryFile
 Real processors perform many operations, but our goal was to understand how a processor works, so we implemented only basic operations. This mini-processor includes various operations and their corresponding operation codes, as detailed in the table below. The first four bits of these codes designate the operation, while the last four bits identify the register (a memory unit) involved. Operations are executed using the accumulator, a key component of the processor. You can find more information about the accumulator [here](https://www.studysmarter.co.uk/explanations/computer-science/computer-organisation-and-architecture/accumulator/#:~:text=An%20accumulator%20functions%20as%20a,main%20memory%20or%20another%20register.).
 
 ```
-1. PROGRAM MEMORY is a 16x8 array to represent
-at max 16 instructions of 8 bits each
+1. PROGRAM MEMORY is a 16x8 array to represent at max 16 instructions of 8 bits each
 
-2. The Program Counter PC is a 4 bit register to store the
-address of the current instruction being executed
+2. The Program Counter PC is a 4 bit register to store the address of the current instruction being executed
 
-3. The Instruction Register IR is an 8 bit register to store
-the current instruction being executed
+3. The Instruction Register IR is an 8 bit register to store the current instruction being executed
 
-4. The Register File is a 16x8 array to store the values of
-16 registers of 8 bits each
+4. The Register File is a 16x8 array to store the values of 16 registers of 8 bits each
 
-5. At each clock cycle, the instruction pointed by the PC is
-fetched from the PROGRAM MEMORY and stored in IR and exexuted and 
-the PC is incremented by 1
+5. At each clock cycle, the instruction pointed by the PC is fetched from the PROGRAM MEMORY and stored in IR and exexuted and  the PC is incremented by 1
 
 6. All ALU operations are performed on the ACC register
 
