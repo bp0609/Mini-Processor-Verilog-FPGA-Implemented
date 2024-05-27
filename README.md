@@ -78,4 +78,10 @@ the PC is incremented by 1
 We have effectively implemented the instructions outlined above in our processor. The processor is capable of executing a single program, which must be defined within the Processor file before execution. This program can consist of any number of operations we wish to execute. We have also successfully implemented the processor on FPGA, a type of configurable integrated circuit. Refer to [link](https://en.wikipedia.org/wiki/Field-programmable_gate_array) to know more about FPGA's.
 
 ### A demo of implementation of the `mini-processor` on FPGA ---> [demo link](https://drive.google.com/file/d/1bZyZVlbj9aQSpFpS6jZFbf3M80JppOU-/view?usp=sharing)
+![](/FPGA_Labeled_Diagram.jpg)
 
+## Installation and trying out code
+- Language used is `verilog`
+- You can run and visualise the verilog code and its simulations in `Vivado Software`. It also helps us to implement the design on a physical FPGA.
+- After installing `Vivado`, open Mini-Processor-Vivado-Project folder and run/open project.xpr file. Vivado will automatically open and you can see Processor code and simulation. 
+- You can also run verilog code in `VS code` by install `Verilog HLD` extension. I have already provided all the files seperately in the repo, so can run them directly in VS code.
